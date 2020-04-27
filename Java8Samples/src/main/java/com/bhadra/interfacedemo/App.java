@@ -6,7 +6,10 @@ package com.bhadra.interfacedemo;
  */
 public class App {
 	public static void main(String[] args) {
-		IVehicle veh = new Car();
-		veh.manufacture();
+		IVehicle car = new Car();
+		car.manufacture();
+		
+		IVehicle bus = new Bus();
+		bus.manufacture();
 	}
 }
